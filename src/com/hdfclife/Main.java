@@ -288,7 +288,7 @@ public class Main {
         System.out.println("Is daemon: " + daemonThread.isDaemon());
 
         daemonThread.start();
-        System.out.println("done");
+
 
     }
 
