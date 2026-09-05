@@ -1,4 +1,9 @@
 package com.hdfclife.thread;
 
-public class SeedRunnable {
+public class SeedRunnable implements Runnable {
+
+    @Override
+    public void run() {
+        System.out.println("SeedRunnable is running");
+    }
 }

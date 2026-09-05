@@ -1,4 +1,7 @@
 package com.hdfclife.exception;
 
-public class InvalidIndexException {
+public class InvalidIndexException extends PipelineException{
+    public InvalidIndexException(String message) {
+        super(message);
+    }
 }

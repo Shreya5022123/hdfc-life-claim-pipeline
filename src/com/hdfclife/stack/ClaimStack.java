@@ -1,4 +1,9 @@
 package com.hdfclife.stack;
 
-public class ClaimStack {
+public interface ClaimStack {
+    void push(int value);
+    int pop();
+    int peek();
+    boolean isEmpty();
+    boolean isFull();
 }
